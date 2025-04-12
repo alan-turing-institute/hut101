@@ -21,7 +21,7 @@ body:
     attributes:
       label: Mentor
       description: The GitHub username of the mentor who will be overseeing this task
-      placeholder: @username
+      placeholder: "@username"
     validations:
       required: true
 
