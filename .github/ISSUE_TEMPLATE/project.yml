@@ -12,7 +12,7 @@ body:
     id: contact
     attributes:
       label: Original GitHub issue
-      description: The issue on the repository giving a technical description of the work to be done
+      description: URL of the issue on the repository (this should contain a technical description of the work to be done)
     validations:
       required: true
 
