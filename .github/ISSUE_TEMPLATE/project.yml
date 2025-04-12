@@ -1,0 +1,43 @@
+name: New Hut101 Opportunity
+description: List a task which someone can sign up to work on!
+labels: ["hut101"]
+projects: ["alan-turing-institute/319"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in submitting a task for Hut101! If you have any questions about this form, please contact one of the organisers.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Original GitHub issue
+      description: The issue on the repository giving a technical description of the work to be done
+    validations:
+      required: true
+
+  - type: input
+    id: mentor-username
+    attributes:
+      label: Mentor
+      description: The GitHub username of the mentor who will be overseeing this task
+      placeholder: @username
+    validations:
+      required: true
+
+  - type: textarea
+    id: project-overview
+    attributes:
+      label: Project overview
+      description: A two-sentence summary of what the overall project (i.e. the target repository) is about
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty level
+      options:
+        - Easy
+        - Medium
+        - Hard
