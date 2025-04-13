@@ -13,6 +13,7 @@ body:
     attributes:
       label: Original GitHub issue
       description: URL of the issue on the repository (this should contain a technical description of the work to be done)
+      placeholder: "https://github.com/user/repo/issues/N"
     validations:
       required: true
 
@@ -38,6 +39,7 @@ body:
     attributes:
       label: Skills / technologies used
       description: A short list of languages, programmes, or frameworks the mentee will be using on this task
+      placeholder: "Python, matplotlib, C++"
     validations:
       required: true
 
