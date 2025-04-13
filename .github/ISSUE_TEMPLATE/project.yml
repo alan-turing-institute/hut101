@@ -58,8 +58,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        After you have submitted this issue, please do tag it with the appropriate difficulty label.
-        
-        Thank you so much for submitting a new Hut101 task!
+        Thank you so much for submitting a new Hut101 task! 😊
+
+        Please do tag this issue with the appropriate difficulty label (if you are using the GitHub UI, there is a 'labels' field just below this text).
         
         If you have any questions, please feel free to contact one of the organisers.
