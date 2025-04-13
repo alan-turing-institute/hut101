@@ -2,11 +2,12 @@ name: New Hut101 Opportunity
 description: List a task which someone can sign up to work on!
 labels: ["hut101"]
 projects: ["alan-turing-institute/319"]
+
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your interest in submitting a task for Hut101! If you have any questions about this form, please contact one of the organisers.
+        The title should contain the name of the original project, plus as short a description of the task as possible.
 
   - type: input
     id: contact
@@ -57,4 +58,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        After you have submitted this issue, please do tag it with the appropriate difficulty label. Thank you so much!
+        After you have submitted this issue, please do tag it with the appropriate difficulty label.
+        
+        Thank you so much for submitting a new Hut101 task!
+        
+        If you have any questions, please feel free to contact one of the organisers.
