@@ -39,7 +39,7 @@ body:
     attributes:
       label: Skills / technologies used
       description: A short list of languages, programmes, or frameworks the mentee will be using on this task
-      placeholder: "Python, matplotlib, C++"
+      placeholder: "e.g. Python, matplotlib, C++, ..."
     validations:
       required: true
 
