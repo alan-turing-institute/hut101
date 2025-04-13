@@ -54,7 +54,7 @@ body:
     validations:
       required: true
 
-- type: markdown
+  - type: markdown
     attributes:
       value: |
         After you have submitted this issue, please do tag it with the appropriate difficulty label. Thank you so much!
