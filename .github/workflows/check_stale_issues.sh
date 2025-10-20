@@ -9,7 +9,8 @@ ALL_PROJECT_ISSUES=($(gh issue list --repo alan-turing-institute/hut101 --state 
 
 EXPECTED_PREFIX="https://github.com/alan-turing-institute/hut101/issues/"
 for ISSUE_URL in "${ALL_PROJECT_ISSUES[@]}"; do
-    echo "\n  Processing issue URL: $ISSUE_URL"
+    echo ""
+    echo "  Processing issue URL: $ISSUE_URL"
 
     if [[ "$ISSUE_URL" != ${EXPECTED_PREFIX}* ]]; then
         echo "    Skipping URL $ISSUE_URL as it is not an issue on the alan-turing-institute/hut101 repository."
