@@ -12,5 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - run: |
-          ./.github/workflows/check_stale_issues.sh
+      - run: ./.github/workflows/check_stale_issues.sh
+        env:
+          GH_TOKEN: ${{ github.token }}
