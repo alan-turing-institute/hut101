@@ -7,7 +7,7 @@ layout: "../Layout.astro"
 
 hut101 is a Research Engineering Group (REG) project aimed at helping university students take their first steps into open-source software contributions by taking on clearly scoped tasks with the support of a REG coach.
 
-The hut101 project board can be found [here](https://github.com/orgs/alan-turing-institute/projects/319/views/1).
+All the available tasks are currently listed on a GitHub project board, which can be found [here](https://github.com/orgs/alan-turing-institute/projects/319/views/1).
 
 ## Objectives
 
@@ -20,5 +20,5 @@ Collectively, we aim to improve the skill level, diversity, and public perceptio
 
 ## What is the process?
 
-- If you are a student wanting to participate: https://github.com/alan-turing-institute/hut101/wiki/for-students
-- If you are a member of REG wanting to join hut101: https://github.com/alan-turing-institute/hut101/wiki/for-reg
+- If you are a student and want to participate: [For students](./students)
+- If you are a member of REG wanting to coach: [For REG members](./reg)

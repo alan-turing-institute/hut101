@@ -24,6 +24,6 @@ This page details information for REG coaches/mentors wanting to participate in 
 
 ## Useful links
 
-- FAQs: https://github.com/alan-turing-institute/hut101/wiki/FAQ
+- [FAQs](../faq)
 - Code review (The Turing Way): https://book.the-turing-way.org/reproducible-research/reviewing
 - The Turing Way: https://book.the-turing-way.org/

@@ -19,7 +19,7 @@ This page details information for students wanting to participate in hut101.
 ## Useful links
 
 - ['hut101 - Am I ready?' flowchart](https://docs.google.com/drawings/d/1hHkMCdJ0SAgaMqT0xfnh-EppK-ANNzPR0FQ_7RzCv38/edit?usp=sharing)
-- [FAQs](https://github.com/alan-turing-institute/hut101/wiki/FAQ)
+- [FAQs](../faq)
 - [Code review (The Turing Way)](https://book.the-turing-way.org/reproducible-research/reviewing)
 - [The Turing Way](https://book.the-turing-way.org/)
 - [GitHub training](https://skills.github.com/)
