@@ -1,5 +1,6 @@
 ---
 const BASE = import.meta.env.BASE_URL;
+const PATHNAME = Astro.url.pathname;
 const links = [
   { href: `${BASE}/`, label: "Home" },
   { href: `${BASE}/students`, label: "For students" },
@@ -8,6 +9,7 @@ const links = [
 ];
 ---
 
+{PATHNAME}
 <ul>
   {
     links.map((link) => (
