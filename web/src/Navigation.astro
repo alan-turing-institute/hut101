@@ -18,7 +18,7 @@ const links = [
   {
     links.map((link) => (
       <li>
-        {Astro.url.pathname === link.href ? (
+        {PATHNAME === link.href ? (
           <span class="active">{link.label}</span>
         ) : (
           <a href={link.href}>{link.label}</a>
