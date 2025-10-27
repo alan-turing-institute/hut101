@@ -21,4 +21,4 @@ A3: Participants should have some level of experience working on code, but do no
 
 ## Q4: Who should I contact if I want to ask more questions?
 
-The main contact points for the hut101 scheme are Penny Yong and Rosie Wood. Feel free to reach out via slack if you have any questions 🤗 .
+The main contact points for the hut101 scheme are Penny Yong and Rosie Wood. Feel free to reach out (e.g. via Slack) if you have any questions 🤗 .

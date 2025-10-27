@@ -26,14 +26,14 @@ const { frontmatter } = Astro.props;
 <style>
   body {
     margin: 0 50px;
-      background-color: #edeae3;
+    background-color: #edeae3;
   }
   main {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-      background-color: #e5e1d7;
+    background-color: #e5e1d7;
     border: 3px solid #bab19a;
   }
   span.top {
@@ -52,7 +52,46 @@ const { frontmatter } = Astro.props;
     h2 {
       margin-top: 2rem;
     }
-    ol,
+    ol {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      list-style: none;
+      counter-reset: num;
+      padding: 5px 20px;
+
+      li {
+        width: 100%;
+        border: 2px solid #bab19a;
+        border-radius: 5px;
+        padding: 10px 20px;
+        counter-increment: num;
+        position: relative;
+
+        :last-child {
+          margin-bottom: 0;
+        }
+      }
+      li::before {
+        /* I won't lie, I was going to look for some CSS online to steal, but
+         * Copilot wrote this. I suppose it just automated the stealing bit.
+         * This is a bit scary, to be honest. */
+        content: counter(num);
+        position: absolute;
+        font-size: 120%;
+        top: -20px;
+        left: -20px;
+        background-color: #bab19a;
+        color: #e5e1d7;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+      }
+    }
     ul {
       display: flex;
       flex-direction: column;
