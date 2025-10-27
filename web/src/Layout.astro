@@ -1,0 +1,57 @@
+---
+import "./main.css";
+import Navigation from "./Navigation.astro";
+const { frontmatter } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>hut101 | {frontmatter.title}</title>
+  </head>
+  <body>
+    <main>
+      <span class="top">
+        <h1>hut101</h1>
+        <Navigation />
+      </span>
+      <span class="content">
+        <slot />
+      </span>
+    </main>
+  </body>
+</html>
+
+<style>
+  body {
+    margin: 0 50px;
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  span.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #dddddd;
+    padding: 0 20px 30px 20px;
+  }
+  /* All CSS styles for the Markdown itself go here */
+  span.content {
+    background-color: #f0f0f0;
+    padding: 0 20px 40px 20px;
+    h2 {
+      margin-top: 2rem;
+    }
+    ol,
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+</style>

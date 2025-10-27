@@ -1,0 +1,51 @@
+---
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/students", label: "For students" },
+  { href: "/reg", label: "For REG" },
+  { href: "/faq", label: "FAQ" },
+];
+---
+
+<ul>
+  {
+    links.map((link) => (
+      <li>
+        {Astro.url.pathname === link.href ? (
+          <span class="active">{link.label}</span>
+        ) : (
+          <a href={link.href}>{link.label}</a>
+        )}
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  ul {
+    list-style-type: none;
+    padding: 0;
+      margin: 0;
+  }
+
+  li {
+    display: inline;
+    margin-right: 35px;
+  }
+
+  span.active {
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    color: #007acc;
+
+    transition: color 0.3s;
+  }
+
+  a:hover {
+    color: #005f99;
+    text-decoration: underline;
+  }
+</style>
