@@ -3,5 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://alan-turing-institute.github.io/hut101/'
+    site: 'https://alan-turing-institute.github.io',
+    base: '/hut101'
 });
