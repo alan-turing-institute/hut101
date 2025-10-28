@@ -24,24 +24,30 @@ const { frontmatter } = Astro.props;
 </html>
 
 <style>
+  :root {
+    --lightest: #f1f0ff;
+    --light: #dedcef;
+    --medium: #5b5f80;
+  }
+
   body {
     margin: 0 50px;
-    background-color: #edeae3;
+    background-color: var(--lightest);
   }
   main {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    background-color: #e5e1d7;
-    border: 3px solid #bab19a;
+    background-color: var(--light);
+    border: 3px solid var(--medium);
   }
   span.top {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 20px 40px 20px;
-    border-bottom: 3px solid #bab19a;
+    border-bottom: 3px solid var(--medium);
   }
   /* All CSS styles for the Markdown itself go here */
   span.content {
@@ -62,7 +68,7 @@ const { frontmatter } = Astro.props;
 
       li {
         width: 100%;
-        border: 2px solid #bab19a;
+        border: 2px solid var(--medium);
         border-radius: 10px;
         padding: 10px 20px;
         counter-increment: num;
@@ -81,8 +87,8 @@ const { frontmatter } = Astro.props;
         font-size: 120%;
         top: -20px;
         left: -20px;
-        background-color: #bab19a;
-        color: #e5e1d7;
+        background-color: var(--medium);
+        color: var(--light);
         width: 35px;
         height: 35px;
         border-radius: 50%;
